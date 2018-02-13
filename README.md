@@ -1,6 +1,7 @@
 # Tarea1
 Pagina web sobre los temas de la clase de nuevas tecnologías de desarrollo
- LISTA DE COSAS POR HACER
+
+     LISTA DE COSAS POR HACER
 [X]crear grupo en wa :v
 [ ]crear wireframe's
 [ ]elegir wireframe's
