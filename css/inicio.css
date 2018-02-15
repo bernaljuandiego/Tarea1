@@ -7,7 +7,8 @@
 body {
     font-family: Arial;
     background-color: #f2f2f2;
-    width: 80%;    
+    width: 80%;  
+    max-width: 800px;  
     height: 800px;
     background-color: #ccc;
     margin: 0 auto;
@@ -33,7 +34,6 @@ aside > h2 {
 
 main, aside {
     padding: 2%;
-    height: 40%;
     overflow: auto;
     display: inline-block;
     /* float: left;     */
@@ -42,12 +42,12 @@ main, aside {
 main {
     background-color: #fff;
     vertical-align: top;
-    width: 70%;
+    width: 100%;
 }
 
 aside {
     background-color: #DBCFB0;
-    width: 29%;
+    width: 100%;
 }
 
 footer {
@@ -70,6 +70,7 @@ html {
     /* max-width: 1200px; */
     margin: 0 auto;
     background-color: #aaa;
+
 }
 
 header {
@@ -93,6 +94,12 @@ header::after{
     width: 30%;
     max-width: 200px;
     /* max-width: 10em; */
+}
+
+.banner{
+    width: 100%;
+    max-width: 800px;
+    
 }
 
 /* header img {
