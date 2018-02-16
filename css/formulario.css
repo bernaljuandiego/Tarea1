@@ -10,10 +10,7 @@ details {
   width: 600px;
   height: 225px;
 }
-span {
-  padding: 20px;
-  padding-left: 20px;
-}
+
 #derecho {
   float: right;
 }
