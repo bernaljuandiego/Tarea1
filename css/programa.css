@@ -114,9 +114,11 @@ main{
 #semanasList {
     background-color: rgb(255, 255, 255);
 }
+
 #semanasList a{
     color: black;
 }
+
 #semanasList a:hover{
     background-color: bisque;
     font-size: 100%;
@@ -126,5 +128,3 @@ article{
     border-bottom: solid 2px #4F6272; 
     margin-top: 10%;
 }
-
-
