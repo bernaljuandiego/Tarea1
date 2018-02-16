@@ -1,0 +1,19 @@
+textarea {
+width:180px; height:150px;
+}
+details {
+  width: 180px;
+}
+
+#ubicacion {
+  float: left;
+  width: 600px;
+  height: 225px;
+}
+span {
+  padding: 20px;
+  padding-left: 20px;
+}
+#derecho {
+  float: right;
+}
