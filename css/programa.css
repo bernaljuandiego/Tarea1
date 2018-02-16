@@ -128,3 +128,8 @@ article{
     border-bottom: solid 2px #4F6272; 
     margin-top: 10%;
 }
+
+#programa{
+    background-color: rgb(0, 63, 102);
+    border-radius: 0.25em;
+}
