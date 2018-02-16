@@ -17,7 +17,7 @@ body {
 header, footer {
     background-color: rgb(11, 39, 61);
     color: white;
-    padding: 2%;
+
 }
 
 h2 {
@@ -94,8 +94,9 @@ header::after{
 .logo {
     /* display: inline-block; */
     float: left;
-    width: 30%;
+    width: 40%;
     max-width: 200px;
+    padding: 2%;
     /* max-width: 10em; */
 }
 
@@ -113,16 +114,14 @@ header::after{
     vertical-align: middle;
 } */
 
-nav {
-    /* display: inline-block; */
-    margin-top: 15px;
-    float: right;
-    width: 70%;
-}
+
 
 nav ul {    
     list-style: none;
     padding: 0;
+    text-align: center;
+    background-color: #1B3257;
+    padding: 2%;
 }
 
 nav ul li {
@@ -146,7 +145,7 @@ nav ul li a:hover {
 } 
 
 p{
-    margin: 2%;
+    padding: 2%;
     text-align: justify;
 }  
 
@@ -156,6 +155,6 @@ p{
     float: right;
     margin: 2%;
 } 
-h1{
-    margin: 3%;
+footer{
+    padding: 2%;
 }
