@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: Arial;
+    width: 80%;
+    max-width: 1000px;
+    background-color: rgb(216, 215, 215);
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: rgb(0, 39, 64);
+    color: white;
+    padding: 3%;
+}
+
+section {
+    text-align: center;
+    width: 100%;
+
+}
+#titulo-menu{
+text-align: center;
+padding-top: 2%;
+width: 100%;
+margin: 0px;
+}
+
+.banner{
+    width: 48%;
+    max-width: 800px;
+    float: left;
+    margin-right: 4%;
+}
+
+.logo {
+    float: left;
+    width: 40%;
+    max-width: 200px;
+}
+
+.profe{
+    width: 20%;
+    max-width: 800px;
+    float: right;
+}
+
+header::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.info {
+    padding: 5%;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 1em;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+}
+
+ul {
+    background-color: rgb(0, 39, 64);
+    padding: 2%;
+}
+
+p{
+    text-align: justify;
+    padding-top: 2%;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 120%;
+    padding: 10px 16px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(0, 63, 102);
+    border-radius: 0.25em;
+    font-size: 140%;
+    color: white;
+}
+
+#inicio{
+    background-color: rgb(0, 63, 102);
+    border-radius: 0.25em;
+}
