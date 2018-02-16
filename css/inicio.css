@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+    width: 80%;  
+    max-width: 1000px;  
+    height: 800px;
+    background-color: rgb(229, 226, 226);
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: rgb(11, 39, 61);
+    color: white;
+
+}
+
+h2 {
+    margin-bottom: 1%;
+}
+
+main > h2 {
+    margin: 2%;
+    /* border-bottom: solid 1px #ccc;  */   
+}
+
+aside > h2 {
+    margin: 2%;
+    /* border-bottom: solid 1px #4F6272;  */   
+}
+
+main, aside {
+    padding: 2%;
+    overflow: auto;
+    display: inline-block;
+    /* float: left;     */
+}
+
+main {
+    border-bottom: solid 1px #4F6272;
+    background-color: rgb(255, 255, 255);
+    vertical-align: top;
+    width: 100%;
+}
+
+aside {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+html {
+    font-size: 100%;
+}
+
+.contenedor {    
+    width: 80%;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+
+}
+
+header {
+    background-color: #1B3257;
+    text-align: center;
+    width: 100%;
+}
+
+header::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/* .clear {
+    clear: both;
+} */
+
+.logo {
+    /* display: inline-block; */
+    float: left;
+    width: 40%;
+    max-width: 200px;
+    padding: 2%;
+    /* max-width: 10em; */
+}
+
+.banner{
+    width: 50%;
+    max-width: 800px;
+    float: left;
+    margin: 2%;
+}
+
+/* header img {
+    max-width: 100%;
+    padding: 1em;
+    
+    vertical-align: middle;
+} */
+
+
+
+nav ul {    
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #1B3257;
+    padding: 2%;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 120%;
+    /* padding: 0.625em 1em; */
+    padding: 10px 16px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: rgb(3, 23, 59);
+    border-radius: 0.25em;
+    font-size: 140%;
+    color: white;
+} 
+
+p{
+    padding: 2%;
+    text-align: justify;
+}  
+
+.profe{
+    width: 20%;
+    max-width: 800px;
+    float: right;
+    margin: 2%;
+} 
+footer{
+    padding: 2%;
+}
