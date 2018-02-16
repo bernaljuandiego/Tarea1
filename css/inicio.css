@@ -4,24 +4,23 @@
     box-sizing: border-box;
     font-family: Arial;
 }
+
 html {
     font-size: 100%;
 }
 
 body {
     font-family: Arial;
-    background-color: #f2f2f2;
     width: 80%;  
     max-width: 1000px;  
-    height: 800px;
-    background-color: rgb(229, 226, 226);
+    background-color: rgb(216, 215, 215);
     margin: 0 auto;
 }
 
 header, footer {
     background-color: rgb(0, 39, 64);
     color: white;
-    padding: 2%;
+    padding: 3%;
 }
 
 .banner{
@@ -49,15 +48,14 @@ header::after{
     clear: both;
 }
 
-main, aside {
-    padding: 4%;
+.info {
+    padding: 5%;
     overflow: auto;
     background-color: rgb(255, 255, 255);
     width: 100%;
-}
-
-main {
-    border-bottom: solid 1px #4F6272;
+    border-radius: 1em;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 header {
@@ -75,8 +73,11 @@ ul {
 }
 
 p{
-    padding: 2%;
     text-align: justify;
+} 
+
+h2{
+    padding-bottom: 3%;
 } 
 
 nav ul li a {
@@ -91,4 +92,4 @@ nav ul li a:hover {
     border-radius: 0.25em;
     font-size: 140%;
     color: white;
-} 
+}
