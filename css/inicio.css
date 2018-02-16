@@ -23,6 +23,18 @@ header, footer {
     padding: 3%;
 }
 
+section {
+    text-align: center;
+    width: 100%;
+
+}
+#titulo-menu{
+text-align: center;
+padding-top: 2%;
+width: 100%;
+margin: 0px;
+}
+
 .banner{
     width: 48%;
     max-width: 800px;
