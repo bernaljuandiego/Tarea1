@@ -24,9 +24,8 @@ header, footer {
 }
 
 section {
-    text-align: center;
+    text-align: left;
     width: 100%;
-
 }
 #titulo-menu{
 text-align: center;
