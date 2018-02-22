@@ -8,5 +8,5 @@ Pagina web sobre los temas de la clase de nuevas tecnologías de desarrollo
      [X]repartir trabajo por realizar
      [X]empezar con la codificación html del sitio web
      [X]empezar con la codificación css del sitio web
-     [ ]realizar ajustes al proyecto
-     [ ]entregar proyecto
+     [X]realizar ajustes al proyecto
+     [X]entregar proyecto
